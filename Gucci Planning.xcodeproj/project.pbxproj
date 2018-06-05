@@ -21,6 +21,7 @@
 		3014C9E320C1987F00F6A303 /* MyFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFileManager.swift; sourceTree = "<group>"; };
 		302EBE4520C67620006236CA /* DestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationView.swift; sourceTree = "<group>"; };
 		302EBE4720C685E4006236CA /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		302EBE4920C694D9006236CA /* Gucci Planning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Gucci Planning.entitlements"; sourceTree = "<group>"; };
 		30D2688820B1EF7200BD4319 /* Gucci Planning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gucci Planning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D2688B20B1EF7200BD4319 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30D2688D20B1EF7200BD4319 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +67,7 @@
 		30D2688A20B1EF7200BD4319 /* Gucci Planning */ = {
 			isa = PBXGroup;
 			children = (
+				302EBE4920C694D9006236CA /* Gucci Planning.entitlements */,
 				30D2688B20B1EF7200BD4319 /* AppDelegate.swift */,
 				30D2688D20B1EF7200BD4319 /* ViewController.swift */,
 				302EBE4520C67620006236CA /* DestinationView.swift */,
@@ -130,6 +132,11 @@
 				TargetAttributes = {
 					30D2688720B1EF7200BD4319 = {
 						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -349,7 +356,6 @@
 			baseConfigurationReference = C7273B172063950B0B01D5FE /* Pods-Gucci Planning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Gucci Planning/Gucci_Planning.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -371,7 +377,6 @@
 			baseConfigurationReference = 89FA41CB9F82A8D51FBC2192 /* Pods-Gucci Planning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Gucci Planning/Gucci_Planning.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
