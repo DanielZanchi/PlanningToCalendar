@@ -127,6 +127,14 @@ extension DestinationView {
                 h = 13
                 min = 0
                 name = "Tredici $"
+            case "9.5":
+                h = 9
+                min = 30
+                name = "Nove e mezzo"
+            case "9.5X":
+                h = 9
+                min = 30
+                name = "Nove e mezzo"
             default:
                 h = 0
                 min = 0
