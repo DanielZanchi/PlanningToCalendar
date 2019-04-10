@@ -15,7 +15,7 @@ class MyFileManager  {
     }
     
     func createOrUpdateFile(events: [Event], name: String, department: String, path: String) {
-        let nameWithoutSpaces = name.replacingOccurrences(of: " ", with: "_")
+        let nameWithoutSpaces = name.replacingOccurrences(of: " ", with: "")
         let file = "\(nameWithoutSpaces).ics" //this is the file. we will write to and read from it
         let originalFileURL = URL(fileURLWithPath: path)
         let pathWithoutLastComp = originalFileURL.deletingLastPathComponent()
@@ -68,10 +68,22 @@ class MyFileManager  {
         catch {/* error handling here */
             print("error creating file")
         }
+        
+        let data = try! Data(contentsOf: fileURL)
+        
+//        MyFileUploader.shared.upload(fileURL: fileURL)
+        print(file)
+        let uploadService = FTPUpload(baseUrl: "ftp.planning.altervista.org", userName: "planning", password: "pazpih-zetvUj-tymwu5", directoryPath: "servizi")
+        uploadService.send(data: data, with: file) { (success) in
+            print(success)
+        }
     }
     
     func updateFile(events: [Event], name: String, department: String, fileURL: URL) {
         print("already exists \(name)")
+        let file = "\(name).ics" //this is the file. we will write to and read from it
+
+        
         let cals = try! iCal.load(url: fileURL)
         let cal = cals.first
         
@@ -90,6 +102,15 @@ class MyFileManager  {
         }
         catch {/* error handling here */
             print("error creating file")
+        }
+        
+        let data = try! Data(contentsOf: fileURL)
+        
+        //        MyFileUploader.shared.upload(fileURL: fileURL)
+        print(file)
+        let uploadService = FTPUpload(baseUrl: "ftp.planning.altervista.org", userName: "planning", password: "pazpih-zetvUj-tymwu5", directoryPath: "servizi")
+        uploadService.send(data: data, with: file) { (success) in
+            print(success)
         }
         
     }

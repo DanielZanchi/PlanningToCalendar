@@ -11,6 +11,7 @@
 		3014C9E420C1987F00F6A303 /* MyFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3014C9E320C1987F00F6A303 /* MyFileManager.swift */; };
 		302EBE4620C67620006236CA /* DestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302EBE4520C67620006236CA /* DestinationView.swift */; };
 		302EBE4820C685E4006236CA /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302EBE4720C685E4006236CA /* Converter.swift */; };
+		305DBF0F225E60400043D505 /* FTPUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305DBF0E225E60400043D505 /* FTPUpload.swift */; };
 		30D2688C20B1EF7200BD4319 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D2688B20B1EF7200BD4319 /* AppDelegate.swift */; };
 		30D2688E20B1EF7200BD4319 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D2688D20B1EF7200BD4319 /* ViewController.swift */; };
 		30D2689020B1EF7400BD4319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D2688F20B1EF7400BD4319 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		302EBE4520C67620006236CA /* DestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationView.swift; sourceTree = "<group>"; };
 		302EBE4720C685E4006236CA /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		302EBE4920C694D9006236CA /* Gucci Planning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Gucci Planning.entitlements"; sourceTree = "<group>"; };
+		305DBF0E225E60400043D505 /* FTPUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPUpload.swift; sourceTree = "<group>"; };
 		30D2688820B1EF7200BD4319 /* Gucci Planning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gucci Planning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D2688B20B1EF7200BD4319 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30D2688D20B1EF7200BD4319 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				302EBE4520C67620006236CA /* DestinationView.swift */,
 				302EBE4720C685E4006236CA /* Converter.swift */,
 				3014C9E320C1987F00F6A303 /* MyFileManager.swift */,
+				305DBF0E225E60400043D505 /* FTPUpload.swift */,
 				30D2688F20B1EF7400BD4319 /* Assets.xcassets */,
 				30D2689120B1EF7400BD4319 /* Main.storyboard */,
 				30D2689420B1EF7400BD4319 /* Info.plist */,
@@ -198,11 +201,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Gucci Planning/Pods-Gucci Planning-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CSV.swift/CSV.framework",
+				"${BUILT_PRODUCTS_DIR}/FilesProvider/FilesProvider.framework",
 				"${BUILT_PRODUCTS_DIR}/iCalKit/iCalKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CSV.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FilesProvider.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iCalKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3014C9E420C1987F00F6A303 /* MyFileManager.swift in Sources */,
+				305DBF0F225E60400043D505 /* FTPUpload.swift in Sources */,
 				302EBE4620C67620006236CA /* DestinationView.swift in Sources */,
 				30D2688E20B1EF7200BD4319 /* ViewController.swift in Sources */,
 				30D2688C20B1EF7200BD4319 /* AppDelegate.swift in Sources */,

@@ -1,10 +1,16 @@
 PODS:
   - CSV.swift (2.3.1)
+  - FilesProvider (0.26.0)
   - iCalKit (0.1.0)
 
 DEPENDENCIES:
   - CSV.swift (from `https://github.com/yaslab/CSV.swift.git`)
+  - FilesProvider
   - iCalKit (from `https://github.com/Danny182/iCalKit.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FilesProvider
 
 EXTERNAL SOURCES:
   CSV.swift:
@@ -22,8 +28,9 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   CSV.swift: d16f671b3090a2c0525d5f2165b18319074aae2b
+  FilesProvider: 2a8ae17d8b9c23a6feadb1308ee638fa31d21065
   iCalKit: 6fc24b368fe28588ec9137b28d6c79636368ca4d
 
-PODFILE CHECKSUM: ca104c59af619c36a6034723f47abe6f4f824462
+PODFILE CHECKSUM: 773d512aff9d1bc662661cea0f14da3b5d330471
 
 COCOAPODS: 1.5.3

@@ -7,8 +7,8 @@ target 'Gucci Planning' do
 
   # Pods for Gucci Planning
 
-
+    pod 'FilesProvider'
 	pod 'iCalKit', :git => 'https://github.com/Danny182/iCalKit.git'
     pod 'CSV.swift', :git => 'https://github.com/yaslab/CSV.swift.git'
-
+    
 end

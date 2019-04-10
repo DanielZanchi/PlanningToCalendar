@@ -3,112 +3,219 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A76CBC7942D92BD32FB88C562E5364C /* UnicodeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131DF185E5C87DB0266833F633BE21E /* UnicodeIterator.swift */; };
-		0B6A73B353246C3DF846889B72BEBD47 /* BinaryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4193DFA2DFD9C857E57A94B179318C /* BinaryReader.swift */; };
-		0F04A9E462A2E754B91D8B42E102599F /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154FEFA80AE312A33C245E0F68A21E14 /* Calendar.swift */; };
-		13683F2891095D6741B836C5333C4A6E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73500A4C8988B3B4F7DD0F520E9F4815 /* Cocoa.framework */; };
-		1E7EAD4A4C57A3D2FDF7F299024930F5 /* CSV.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B065E4930D85FD51D754506CFCE559 /* CSV.swift-dummy.m */; };
-		1FF86726799602E4D4D85E3C4C1AC776 /* iCalKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 932C2D85821DF3FAA464FE896F8CAAE2 /* iCalKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3140F44D4D3241B66548AEDEF68C8EC0 /* Endian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DE26017F560A701757F23A56323C77 /* Endian.swift */; };
-		3CA31113AB67DD3B2FEA05C7BF7041BC /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A4000D876DDD3B2763579484566122 /* CSV.swift */; };
-		3EC106231864B35B9848FE5CD806ECED /* Pods-Gucci Planning-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1040DE5110A12ABDA688567F1C58F3E /* Pods-Gucci Planning-dummy.m */; };
-		434F5F6B0595E5F23BB04E195B2C344D /* CSVWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677AD02FC588047498AAC50323C08845 /* CSVWriter.swift */; };
-		4A4AFF9C31C94D9ED4AB38D38EA7341E /* Pods-Gucci Planning-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A76C2CD03BD6B7890606B4528FE818FF /* Pods-Gucci Planning-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		503EBA9AF31F1F6F113892A2F63F1B55 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA20A5A7D4C5E872B3ED5CE2F57A432C /* Date.swift */; };
-		508944563E0F31123179791D37D3D80D /* iCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E81DAFE8D59EB153F66F93AB6AC2C59 /* iCal.swift */; };
-		5AF0E937E6838640BF3D87DF6E09168E /* CalendarComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8D8EDD381F941095915039C0E0040D /* CalendarComponent.swift */; };
-		5BD4B781F9451175FCAAFC393E4BD8AC /* iCalKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3059A196060C8094C97113989EF7285 /* iCalKit-dummy.m */; };
-		6C2A4640E0ACF4D42069E6E93869631E /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC7F1D1D22A11C110853F9CDA49BBAE /* Alarm.swift */; };
-		7D25047002E41415079234D12018F652 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB3D1345A17837D250190A2222C578BD /* Foundation.framework */; };
-		7DA3D6E32EA5F908222CCCC435141221 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1A68FDB45F39E83E9FA01A4B32D4BC /* Parser.swift */; };
-		87CBD7214FF6397F8A2CEB7A8D433902 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73500A4C8988B3B4F7DD0F520E9F4815 /* Cocoa.framework */; };
-		BAD8C5110DADF8608BCBAD7B8857E6ED /* CSVRowDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ECC802138FE96FCCAE6120DEFB2FA0 /* CSVRowDecoder.swift */; };
-		BD1DC9826DBF0B4CC3ADE8241988F9DF /* iCalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70A2726058DD9FED31B0DA5067537A9 /* iCalError.swift */; };
-		BD30F0A9F3CA794142E8D62F79AD47E6 /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D943EA5B32438889F29114AC3C5A7 /* CSVReader.swift */; };
-		CEE369BDD6E946755B7349AA1FAAF7E5 /* IcsElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ADF6364233870D52DBDC61F19E1D52 /* IcsElement.swift */; };
-		D4ACB15480975CF7B1F7F7BE6E0F47B3 /* CSV.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B77405705B28883B63FA24DCDF379BA /* CSV.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBCA12D28A9AB35E3D43939CA90C196C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE1E066F4B4F71749C4F4801EE10681 /* String.swift */; };
-		EC045A869EF144E02D49A00924A59223 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB83D7F21DB15A3FB90DD3768253598 /* Event.swift */; };
-		FD9766E7523660E127F3EA53FAAAB808 /* CSVError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AFCC1BD1CEA00F05DC7BBDE6FE5FF1 /* CSVError.swift */; };
-		FDBF3F229ED696123C703725A357B2F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73500A4C8988B3B4F7DD0F520E9F4815 /* Cocoa.framework */; };
+		050A15A69A085E53F52F0C1E875F9C55 /* FTPFileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DD791F938A9CD1422357436C79E9FA /* FTPFileProvider.swift */; };
+		05A8D780029E113D52AAC49FB1BB23A2 /* Pods-Gucci Planning-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1040DE5110A12ABDA688567F1C58F3E /* Pods-Gucci Planning-dummy.m */; };
+		0A76CBC7942D92BD32FB88C562E5364C /* UnicodeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A49082EBA68018993F5AB77AE5E9301 /* UnicodeIterator.swift */; };
+		0B6A73B353246C3DF846889B72BEBD47 /* BinaryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DB95451CCA043411E2A8A74F054D42 /* BinaryReader.swift */; };
+		0D4B518EBB10E77A291BBCFDF52A973B /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDCC210F976FD3B89BCF345DCEAFA29 /* Error.swift */; };
+		0F04A9E462A2E754B91D8B42E102599F /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A488BD5CCF34A4750AA1E7C4A0E9B4 /* Calendar.swift */; };
+		0F210512A4AAD9B0E00FB865CCE3FE87 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683818A8E1D9804A74CB4F630E401C67 /* Cocoa.framework */; };
+		1581496B01F0D42256CD75AF734CAFB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A23F4160FCAC19B193A6D84861AEFA /* CoreGraphics.framework */; };
+		19376D16195C78E387CB2EFF3A31CD67 /* SMB2Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B993C1896C6A3A7ACABBF17B87A69 /* SMB2Session.swift */; };
+		1E7EAD4A4C57A3D2FDF7F299024930F5 /* CSV.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0FABE2D1300281511255140C651B1 /* CSV.swift-dummy.m */; };
+		1FF86726799602E4D4D85E3C4C1AC776 /* iCalKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5886D8441E0A06FEE0A1FB2AB5C6426A /* iCalKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2376250E28356EB53B0CE5EAB5E4B52B /* SMB2Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F01C24044CCFE5D5076D2ACC47CB043 /* SMB2Types.swift */; };
+		25B2868F26379AF085981DAA112CC071 /* SMB2Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2D742434664246EC2DD41B367201C5 /* SMB2Tree.swift */; };
+		2990C7D3F0AC0A2645FC46738BAA61A6 /* SMB2SetInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A6517769EF46E4EC835A7CF3EF7A4E /* SMB2SetInfo.swift */; };
+		3140F44D4D3241B66548AEDEF68C8EC0 /* Endian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AA0591506704B586C5D2DA819F10EB /* Endian.swift */; };
+		322EB03BEA7D17A0010E0742057FE458 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20A38651350E9F44CEBB65442D7745A /* Options.swift */; };
+		33CA9C89CCAD3DDAA1538692ECA74E01 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F4D34A84192AA6648573A0A961BF8B /* Parser.swift */; };
+		349CE908FE42E7AC87A5BD336E2D24C8 /* SMB2IOCtl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4463E1685B3926E597F8F4738E56BF76 /* SMB2IOCtl.swift */; };
+		37C75B3C75DCFB7E26DCB07C1E40F9D8 /* DropboxHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5066CC00327E6836CE820C73D663B4C3 /* DropboxHelper.swift */; };
+		3CA31113AB67DD3B2FEA05C7BF7041BC /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776D1BB5F9B0342FD117D5E50B61CB52 /* CSV.swift */; };
+		3F11AB2943FE0D95C2B4C7C50A75FD18 /* SMB2Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9873CC9321DD078D9D13F02E97A282 /* SMB2Query.swift */; };
+		434F5F6B0595E5F23BB04E195B2C344D /* CSVWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07FFE9BC280BFD1BCE21C3E358ED5A8 /* CSVWriter.swift */; };
+		4C5ABB99CC89FE3BFE3DCA2EAE881818 /* FTPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735FB2E08EE95095C697C6E501133AAC /* FTPHelper.swift */; };
+		4F4AB17810FA7AB3C43B24852E92173F /* SMB2FileHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD67D5A6C7818ACFEA6100A50ADD972 /* SMB2FileHandle.swift */; };
+		4FD6D09783E635D0DAD95F70B0BAB5AF /* SMB2FileOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22197276EF3F57E9781A65332DD1E37F /* SMB2FileOperation.swift */; };
+		503EBA9AF31F1F6F113892A2F63F1B55 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA462425D14AE0DAE04D772753094B2 /* Date.swift */; };
+		508944563E0F31123179791D37D3D80D /* iCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D85076AE710F67B99B11116E5D1E80 /* iCal.swift */; };
+		516A856035238BC6BBF839F9CCD656A7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683818A8E1D9804A74CB4F630E401C67 /* Cocoa.framework */; };
+		53B96879C13DEEC9DF40D22C02440A59 /* RemoteSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5907328AD7341097737FFF89A34B8EE4 /* RemoteSession.swift */; };
+		5691C9C23C6EE715EEE16DC89684FBB2 /* WebDAVFileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586624104369D93B0DEADFCD63D167B6 /* WebDAVFileProvider.swift */; };
+		5848DCAAF7E3E5FF78BAA91570D205DF /* OneDriveFileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB3B04B3085C357ADCD632793F8A8C /* OneDriveFileProvider.swift */; };
+		5AF0E937E6838640BF3D87DF6E09168E /* CalendarComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1136FC4D385C1905AA78EA461F4B101 /* CalendarComponent.swift */; };
+		5B5AD8994E607CADE02390C7E8BCC448 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A0989C8B501785694349DCD82333D4 /* FoundationExtensions.swift */; };
+		5BD4B781F9451175FCAAFC393E4BD8AC /* iCalKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD75A58DC9F60591F1F9723CB640462 /* iCalKit-dummy.m */; };
+		5F55B7CCED0B73A973A72B3B297B2FB9 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7DF5C81B389CFF3055194538E2C70E /* ImageIO.framework */; };
+		6454A0C943A88E9286287C2436F49C79 /* FilesProvider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A77B7302810C7250D5EFF0A1D088E30 /* FilesProvider-dummy.m */; };
+		65A5BBCA345BD4EE35D2CBE5931F1BF4 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0FEBD1628C0918989EA47EB8A4F45 /* Element.swift */; };
+		668686C2632C0EC1C85C9E7B9398B273 /* FilesProvider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C84B7CABE0140490852446B6696D471F /* FilesProvider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C2A4640E0ACF4D42069E6E93869631E /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC51E7378D94F0131D59CC613A089786 /* Alarm.swift */; };
+		6DA9F257565E75F335B496EA81B84D17 /* FileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BC8C3FD2CC0830AC16064BE11221CF /* FileProvider.swift */; };
+		7733A18F6574E1EC06276D28F78B2302 /* CIFSTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEC08734BBD5E6233707BB5EE5B7DED /* CIFSTypes.swift */; };
+		7C09DBE5F9CE97A237049B0D41BC41AA /* SMB2QueryTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B34CB9140EBA0FD8BAAA84FA69C902A /* SMB2QueryTypes.swift */; };
+		7D25047002E41415079234D12018F652 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD394D3DECD1F887B4FEFECC87D7CAFB /* Foundation.framework */; };
+		7DA3D6E32EA5F908222CCCC435141221 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3834000B72C804EE29F818AC21A57 /* Parser.swift */; };
+		80F58C9BE271AB19B2235A18B7B3A524 /* SMBErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E536BC41EF2566F022D0494503A18FEF /* SMBErrorType.swift */; };
+		87CBD7214FF6397F8A2CEB7A8D433902 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683818A8E1D9804A74CB4F630E401C67 /* Cocoa.framework */; };
+		8E2126A888375C52EDAA07F6DC380835 /* SMBFileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36023A054895CA66CB050748269C91C /* SMBFileProvider.swift */; };
+		9A8E44A61A4BA3F092C4D0E7441C21F3 /* HashMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF4DBC460177D2128A0C9CB1A89D08F /* HashMAC.swift */; };
+		A2E9EF5FFA820C13C803C7D55139E949 /* ExtendedLocalFileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C679217745F2883475A218964BF93601 /* ExtendedLocalFileProvider.swift */; };
+		AA2E3C41029752B8DEF145454F61381C /* SMB2Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2765B8B409069C9D6D471BC9A4D48E1 /* SMB2Notification.swift */; };
+		B0C5B3D65E9F72A5A76699AEC4060B44 /* CloudFileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C4087C0E264192F076C31BD3EC6890 /* CloudFileProvider.swift */; };
+		BAD8C5110DADF8608BCBAD7B8857E6ED /* CSVRowDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080AD77CFA3B4A347928847741F37F73 /* CSVRowDecoder.swift */; };
+		BB649EB7AB7C5A472BCA7544E57F3F3E /* SMBClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC0C016A525DB0021BF62E8BECC88D /* SMBClient.swift */; };
+		BD1DC9826DBF0B4CC3ADE8241988F9DF /* iCalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C7A9D6AAE457632934CA561C65B96F /* iCalError.swift */; };
+		BD30F0A9F3CA794142E8D62F79AD47E6 /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6EBC1A69F04BEF3527F6251D0CA2D /* CSVReader.swift */; };
+		BDF4EEE6759BA5C75B76275BD661C56B /* FPSStreamTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381FAB5EA687F42989FC9B6747DCBEEB /* FPSStreamTask.swift */; };
+		C5AEDE1E1037D9E960BFCFDB2BE2948F /* HTTPFileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8B1B7D72ED4166B6FD2685D6883363 /* HTTPFileProvider.swift */; };
+		C630273A6F1A376BABA80213CB4ECCD9 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3EB3E169E5E6009F204229F7A41DEB /* AppKit.framework */; };
+		CE3D80A549F86784E85F16A865F77411 /* LocalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367A4A115C94CF334F61A3FECB55D3FC /* LocalHelper.swift */; };
+		CEE369BDD6E946755B7349AA1FAAF7E5 /* IcsElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B0E238385E97D9FB00533ED24D699E /* IcsElement.swift */; };
+		D4ACB15480975CF7B1F7F7BE6E0F47B3 /* CSV.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED7F4CBE670A0E5CDCFF62A9C4A70B1 /* CSV.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94ECD1BE4677C50DDA30469571A17C9 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDB03AE2DBECD63030E119282CF3271 /* ServerTrustPolicy.swift */; };
+		DA0256316EB6E5419410AB010C7AB604 /* LocalFileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE89DCE8E50D1674209FB18EE3D8D36 /* LocalFileProvider.swift */; };
+		DD59F9ADE163CAAB491AC5C4D30E687F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CDA95D9AF9F850B992A6D318240C82 /* AVFoundation.framework */; };
+		EBCA12D28A9AB35E3D43939CA90C196C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE2735EB5CE03E4E45DBB28A4F1075E /* String.swift */; };
+		EC045A869EF144E02D49A00924A59223 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F42D85340F23E137BE0322794ADD1C /* Event.swift */; };
+		EE032452995C644DA5ADBA82DCFC7715 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC46CD2BC45ACE44CEC11FD5984431C /* Document.swift */; };
+		F32803C59869F37D733F5FEB9325C469 /* SMB2DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12376355BB327625BE4D458D51485F0B /* SMB2DataTypes.swift */; };
+		F44814A53EC9A516FAA4AF9E232F2D2F /* OneDriveHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1DB69AFD17B1B77CF0F186D1F4F4D9 /* OneDriveHelper.swift */; };
+		F5E9732887578571CA2FDDB6C2E725C3 /* FileObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EEE454E21DEADFF00295DC19E1B635 /* FileObject.swift */; };
+		FB39B4F8E3F7E42C895AF9F1E3616C9F /* DropboxFileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9DAC2917281E92BED52A56E4A1FC53 /* DropboxFileProvider.swift */; };
+		FD9766E7523660E127F3EA53FAAAB808 /* CSVError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8332719D4B9DFE048B810F733BA1 /* CSVError.swift */; };
+		FDBF3F229ED696123C703725A357B2F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683818A8E1D9804A74CB4F630E401C67 /* Cocoa.framework */; };
+		FEAB8975A855682F37070150BB5D0DA9 /* Pods-Gucci Planning-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A76C2CD03BD6B7890606B4528FE818FF /* Pods-Gucci Planning-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B7EA74313C1FEB9A17D76CAED6BBC1C5 /* PBXContainerItemProxy */ = {
+		997894C38A6504B18E06933A927A3CB1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 59D0A23DB65E60F61E5F2FE78575925F;
 			remoteInfo = CSV.swift;
 		};
-		BA8EA1329AF4133F63489C79C80E2FA3 /* PBXContainerItemProxy */ = {
+		D48A058C87C21E142F29F29D7A0FA52E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 47CB11462B7F23491981A5FA260B9612;
 			remoteInfo = iCalKit;
 		};
+		DCD4576F5BFD9B2197B1C6B50FF55272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1E33A76DE05A182BD962B02A9546A5E;
+			remoteInfo = FilesProvider;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		071E9FA254D43E11500442F2D6640A89 /* CSV.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CSV.swift.modulemap; sourceTree = "<group>"; };
-		0AC7B01148428FD68AEEC466A6F76630 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03FC8B270DC8FC88CBAF928C5F9D3831 /* iCalKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iCalKit.framework; path = iCalKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		080AD77CFA3B4A347928847741F37F73 /* CSVRowDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVRowDecoder.swift; path = Sources/CSV/CSVRowDecoder.swift; sourceTree = "<group>"; };
 		0B5328A94BEEEB7E35BC01A878581A43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		154FEFA80AE312A33C245E0F68A21E14 /* Calendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Calendar.swift; path = Sources/Calendar.swift; sourceTree = "<group>"; };
+		0BEC08734BBD5E6233707BB5EE5B7DED /* CIFSTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIFSTypes.swift; path = Sources/SMBTypes/CIFSTypes.swift; sourceTree = "<group>"; };
+		0C2D742434664246EC2DD41B367201C5 /* SMB2Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMB2Tree.swift; path = Sources/SMBTypes/SMB2Tree.swift; sourceTree = "<group>"; };
+		12376355BB327625BE4D458D51485F0B /* SMB2DataTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMB2DataTypes.swift; path = Sources/SMBTypes/SMB2DataTypes.swift; sourceTree = "<group>"; };
 		15F24E44229F93EC86D4AB60E463DC10 /* Pods-Gucci Planning-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Gucci Planning-resources.sh"; sourceTree = "<group>"; };
-		1F8D8EDD381F941095915039C0E0040D /* CalendarComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarComponent.swift; path = Sources/Protocols/CalendarComponent.swift; sourceTree = "<group>"; };
+		1D9DAC2917281E92BED52A56E4A1FC53 /* DropboxFileProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropboxFileProvider.swift; path = Sources/DropboxFileProvider.swift; sourceTree = "<group>"; };
+		22197276EF3F57E9781A65332DD1E37F /* SMB2FileOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMB2FileOperation.swift; path = Sources/SMBTypes/SMB2FileOperation.swift; sourceTree = "<group>"; };
+		25E3834000B72C804EE29F818AC21A57 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser.swift; sourceTree = "<group>"; };
 		2621917486C2AD074C238AA5F92D8C20 /* Pods-Gucci Planning-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gucci Planning-acknowledgements.plist"; sourceTree = "<group>"; };
-		27ECC802138FE96FCCAE6120DEFB2FA0 /* CSVRowDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVRowDecoder.swift; path = Sources/CSV/CSVRowDecoder.swift; sourceTree = "<group>"; };
 		2B5C55E13AAA5AF211EA7BFB2B90310C /* Pods-Gucci Planning.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Gucci Planning.modulemap"; sourceTree = "<group>"; };
-		2BB83D7F21DB15A3FB90DD3768253598 /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = Sources/Event.swift; sourceTree = "<group>"; };
-		34A4000D876DDD3B2763579484566122 /* CSV.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSV.swift; path = Sources/CSV/CSV.swift; sourceTree = "<group>"; };
-		4259209A2F17FC04A846A2CA1F31E5D6 /* iCalKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iCalKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		45B065E4930D85FD51D754506CFCE559 /* CSV.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSV.swift-dummy.m"; sourceTree = "<group>"; };
+		2F01C24044CCFE5D5076D2ACC47CB043 /* SMB2Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMB2Types.swift; path = Sources/SMBTypes/SMB2Types.swift; sourceTree = "<group>"; };
+		33C4087C0E264192F076C31BD3EC6890 /* CloudFileProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloudFileProvider.swift; path = Sources/CloudFileProvider.swift; sourceTree = "<group>"; };
+		344680881299C6198BA64E467BC4482A /* CSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CSV.framework; path = CSV.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EEE454E21DEADFF00295DC19E1B635 /* FileObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileObject.swift; path = Sources/FileObject.swift; sourceTree = "<group>"; };
+		367A4A115C94CF334F61A3FECB55D3FC /* LocalHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalHelper.swift; path = Sources/LocalHelper.swift; sourceTree = "<group>"; };
+		381FAB5EA687F42989FC9B6747DCBEEB /* FPSStreamTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPSStreamTask.swift; path = Sources/FPSStreamTask.swift; sourceTree = "<group>"; };
+		3AE89DCE8E50D1674209FB18EE3D8D36 /* LocalFileProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalFileProvider.swift; path = Sources/LocalFileProvider.swift; sourceTree = "<group>"; };
+		3BC4F23192FE917DAC308CF7C3A79C89 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E34FC8FEA3F8DC77400DDE7F48B41F2 /* iCalKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCalKit-prefix.pch"; sourceTree = "<group>"; };
+		40063503A688D955032B7FE27F08F1DD /* CSV.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSV.swift.xcconfig; sourceTree = "<group>"; };
+		4463E1685B3926E597F8F4738E56BF76 /* SMB2IOCtl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMB2IOCtl.swift; path = Sources/SMBTypes/SMB2IOCtl.swift; sourceTree = "<group>"; };
 		46CA2F0E3ECAA9386D29A64E67CCDEA0 /* Pods-Gucci Planning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gucci Planning.debug.xcconfig"; sourceTree = "<group>"; };
-		4F49EFC71241A3CCFA63B78C875D2296 /* CSV.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSV.swift.xcconfig; sourceTree = "<group>"; };
-		5E81DAFE8D59EB153F66F93AB6AC2C59 /* iCal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iCal.swift; path = Sources/iCal.swift; sourceTree = "<group>"; };
-		6131DF185E5C87DB0266833F633BE21E /* UnicodeIterator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnicodeIterator.swift; path = Sources/CSV/UnicodeIterator.swift; sourceTree = "<group>"; };
-		677AD02FC588047498AAC50323C08845 /* CSVWriter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVWriter.swift; path = Sources/CSV/CSVWriter.swift; sourceTree = "<group>"; };
-		73500A4C8988B3B4F7DD0F520E9F4815 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		7BC7F1D1D22A11C110853F9CDA49BBAE /* Alarm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alarm.swift; path = Sources/Alarm.swift; sourceTree = "<group>"; };
-		8318D8C40E8FBBE34B0529E69870CB98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85AFCC1BD1CEA00F05DC7BBDE6FE5FF1 /* CSVError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVError.swift; path = Sources/CSV/CSVError.swift; sourceTree = "<group>"; };
-		87140F9641A6EE06FF929CBBD4F48C61 /* CSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88DE26017F560A701757F23A56323C77 /* Endian.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endian.swift; path = Sources/CSV/Endian.swift; sourceTree = "<group>"; };
-		8B77405705B28883B63FA24DCDF379BA /* CSV.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSV.swift-umbrella.h"; sourceTree = "<group>"; };
-		8D46DD0A412D65CE096DA92BE96747D7 /* Pods_Gucci_Planning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gucci_Planning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5066CC00327E6836CE820C73D663B4C3 /* DropboxHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropboxHelper.swift; path = Sources/DropboxHelper.swift; sourceTree = "<group>"; };
+		54C7A9D6AAE457632934CA561C65B96F /* iCalError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iCalError.swift; path = Sources/Enums/iCalError.swift; sourceTree = "<group>"; };
+		577B993C1896C6A3A7ACABBF17B87A69 /* SMB2Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMB2Session.swift; path = Sources/SMBTypes/SMB2Session.swift; sourceTree = "<group>"; };
+		586624104369D93B0DEADFCD63D167B6 /* WebDAVFileProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebDAVFileProvider.swift; path = Sources/WebDAVFileProvider.swift; sourceTree = "<group>"; };
+		5886D8441E0A06FEE0A1FB2AB5C6426A /* iCalKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCalKit-umbrella.h"; sourceTree = "<group>"; };
+		5907328AD7341097737FFF89A34B8EE4 /* RemoteSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteSession.swift; path = Sources/RemoteSession.swift; sourceTree = "<group>"; };
+		5A49082EBA68018993F5AB77AE5E9301 /* UnicodeIterator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnicodeIterator.swift; path = Sources/CSV/UnicodeIterator.swift; sourceTree = "<group>"; };
+		5A77B7302810C7250D5EFF0A1D088E30 /* FilesProvider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FilesProvider-dummy.m"; sourceTree = "<group>"; };
+		5AA462425D14AE0DAE04D772753094B2 /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = Sources/Extensions/Date.swift; sourceTree = "<group>"; };
+		5C8B1B7D72ED4166B6FD2685D6883363 /* HTTPFileProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPFileProvider.swift; path = Sources/HTTPFileProvider.swift; sourceTree = "<group>"; };
+		5E9873CC9321DD078D9D13F02E97A282 /* SMB2Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMB2Query.swift; path = Sources/SMBTypes/SMB2Query.swift; sourceTree = "<group>"; };
+		5ED7F4CBE670A0E5CDCFF62A9C4A70B1 /* CSV.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSV.swift-umbrella.h"; sourceTree = "<group>"; };
+		5EDB03AE2DBECD63030E119282CF3271 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Sources/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		63D0FEBD1628C0918989EA47EB8A4F45 /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/AEXML/Element.swift; sourceTree = "<group>"; };
+		63F42D85340F23E137BE0322794ADD1C /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = Sources/Event.swift; sourceTree = "<group>"; };
+		65F4D34A84192AA6648573A0A961BF8B /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/AEXML/Parser.swift; sourceTree = "<group>"; };
+		683818A8E1D9804A74CB4F630E401C67 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		6AB0FABE2D1300281511255140C651B1 /* CSV.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSV.swift-dummy.m"; sourceTree = "<group>"; };
+		6AF4DBC460177D2128A0C9CB1A89D08F /* HashMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HashMAC.swift; path = Sources/Extensions/HashMAC.swift; sourceTree = "<group>"; };
+		6B34CB9140EBA0FD8BAAA84FA69C902A /* SMB2QueryTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMB2QueryTypes.swift; path = Sources/SMBTypes/SMB2QueryTypes.swift; sourceTree = "<group>"; };
+		6FE2735EB5CE03E4E45DBB28A4F1075E /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Sources/Extensions/String.swift; sourceTree = "<group>"; };
+		735FB2E08EE95095C697C6E501133AAC /* FTPHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTPHelper.swift; path = Sources/FTPHelper.swift; sourceTree = "<group>"; };
+		74B0E238385E97D9FB00533ED24D699E /* IcsElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IcsElement.swift; path = Sources/Protocols/IcsElement.swift; sourceTree = "<group>"; };
+		75CDA95D9AF9F850B992A6D318240C82 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		776D1BB5F9B0342FD117D5E50B61CB52 /* CSV.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSV.swift; path = Sources/CSV/CSV.swift; sourceTree = "<group>"; };
+		7BDCC210F976FD3B89BCF345DCEAFA29 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/AEXML/Error.swift; sourceTree = "<group>"; };
+		80205E20CEB8ADD1D72D1ADDC34E8F69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873B8332719D4B9DFE048B810F733BA1 /* CSVError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVError.swift; path = Sources/CSV/CSVError.swift; sourceTree = "<group>"; };
+		8AD75A58DC9F60591F1F9723CB640462 /* iCalKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iCalKit-dummy.m"; sourceTree = "<group>"; };
 		8D5738648483B3468F874B2334591C64 /* Pods-Gucci Planning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gucci Planning.release.xcconfig"; sourceTree = "<group>"; };
-		932C2D85821DF3FAA464FE896F8CAAE2 /* iCalKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCalKit-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96ADF6364233870D52DBDC61F19E1D52 /* IcsElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IcsElement.swift; path = Sources/Protocols/IcsElement.swift; sourceTree = "<group>"; };
-		9F4193DFA2DFD9C857E57A94B179318C /* BinaryReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryReader.swift; path = Sources/CSV/BinaryReader.swift; sourceTree = "<group>"; };
+		90A6517769EF46E4EC835A7CF3EF7A4E /* SMB2SetInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMB2SetInfo.swift; path = Sources/SMBTypes/SMB2SetInfo.swift; sourceTree = "<group>"; };
+		90BC8C3FD2CC0830AC16064BE11221CF /* FileProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileProvider.swift; path = Sources/FileProvider.swift; sourceTree = "<group>"; };
+		91A23F4160FCAC19B193A6D84861AEFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95CB3B04B3085C357ADCD632793F8A8C /* OneDriveFileProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OneDriveFileProvider.swift; path = Sources/OneDriveFileProvider.swift; sourceTree = "<group>"; };
+		962688C33BB3F52D2A394E248E00BCAD /* iCalKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iCalKit.modulemap; sourceTree = "<group>"; };
+		97D85076AE710F67B99B11116E5D1E80 /* iCal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iCal.swift; path = Sources/iCal.swift; sourceTree = "<group>"; };
+		98AA0591506704B586C5D2DA819F10EB /* Endian.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endian.swift; path = Sources/CSV/Endian.swift; sourceTree = "<group>"; };
 		A1040DE5110A12ABDA688567F1C58F3E /* Pods-Gucci Planning-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gucci Planning-dummy.m"; sourceTree = "<group>"; };
-		A375DA1E94E338E096F66053185F77C4 /* iCalKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCalKit-prefix.pch"; sourceTree = "<group>"; };
 		A76C2CD03BD6B7890606B4528FE818FF /* Pods-Gucci Planning-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gucci Planning-umbrella.h"; sourceTree = "<group>"; };
-		AA6D943EA5B32438889F29114AC3C5A7 /* CSVReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVReader.swift; path = Sources/CSV/CSVReader.swift; sourceTree = "<group>"; };
-		B3059A196060C8094C97113989EF7285 /* iCalKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iCalKit-dummy.m"; sourceTree = "<group>"; };
-		B70A2726058DD9FED31B0DA5067537A9 /* iCalError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iCalError.swift; path = Sources/Enums/iCalError.swift; sourceTree = "<group>"; };
-		BAE1E066F4B4F71749C4F4801EE10681 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Sources/Extensions/String.swift; sourceTree = "<group>"; };
-		BB3D1345A17837D250190A2222C578BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		BC1A68FDB45F39E83E9FA01A4B32D4BC /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser.swift; sourceTree = "<group>"; };
-		CA20A5A7D4C5E872B3ED5CE2F57A432C /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = Sources/Extensions/Date.swift; sourceTree = "<group>"; };
+		A7A0989C8B501785694349DCD82333D4 /* FoundationExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationExtensions.swift; path = Sources/Extensions/FoundationExtensions.swift; sourceTree = "<group>"; };
+		A9DB95451CCA043411E2A8A74F054D42 /* BinaryReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryReader.swift; path = Sources/CSV/BinaryReader.swift; sourceTree = "<group>"; };
+		B1130620B0DFD80791F233FC5B01E566 /* FilesProvider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FilesProvider-prefix.pch"; sourceTree = "<group>"; };
+		B2765B8B409069C9D6D471BC9A4D48E1 /* SMB2Notification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMB2Notification.swift; path = Sources/SMBTypes/SMB2Notification.swift; sourceTree = "<group>"; };
+		BC51E7378D94F0131D59CC613A089786 /* Alarm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alarm.swift; path = Sources/Alarm.swift; sourceTree = "<group>"; };
+		BF7DF5C81B389CFF3055194538E2C70E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		C07FFE9BC280BFD1BCE21C3E358ED5A8 /* CSVWriter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVWriter.swift; path = Sources/CSV/CSVWriter.swift; sourceTree = "<group>"; };
+		C20A38651350E9F44CEBB65442D7745A /* Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Options.swift; path = Sources/AEXML/Options.swift; sourceTree = "<group>"; };
+		C679217745F2883475A218964BF93601 /* ExtendedLocalFileProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtendedLocalFileProvider.swift; path = Sources/ExtendedLocalFileProvider.swift; sourceTree = "<group>"; };
+		C84B7CABE0140490852446B6696D471F /* FilesProvider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FilesProvider-umbrella.h"; sourceTree = "<group>"; };
+		CE1DB69AFD17B1B77CF0F186D1F4F4D9 /* OneDriveHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OneDriveHelper.swift; path = Sources/OneDriveHelper.swift; sourceTree = "<group>"; };
+		CF3EF7A65702CA3D78EA8A8A47045DAF /* Pods_Gucci_Planning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Gucci_Planning.framework; path = "Pods-Gucci Planning.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AC0C016A525DB0021BF62E8BECC88D /* SMBClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMBClient.swift; path = Sources/SMBClient.swift; sourceTree = "<group>"; };
+		D5329A3C549780901664C062D535079C /* FilesProvider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FilesProvider.xcconfig; sourceTree = "<group>"; };
 		D5BCDF6F42B939063595158841FD5DAB /* Pods-Gucci Planning-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gucci Planning-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D9AF07B5B0F9432E2316A9BA917CEB8D /* iCalKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iCalKit.xcconfig; sourceTree = "<group>"; };
-		EF76A9CF5D52089468EF15C05AC8FCB2 /* iCalKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iCalKit.modulemap; sourceTree = "<group>"; };
-		FA2CEF1B0D0BA5D8416971692E2E5182 /* CSV.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSV.swift-prefix.pch"; sourceTree = "<group>"; };
+		D5DD791F938A9CD1422357436C79E9FA /* FTPFileProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTPFileProvider.swift; path = Sources/FTPFileProvider.swift; sourceTree = "<group>"; };
+		D75FB09B3E911A1D30E39FBCD76EE1AD /* CSV.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSV.swift-prefix.pch"; sourceTree = "<group>"; };
+		D91BA41F66695D0ED02409F43C1193CE /* FilesProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FilesProvider.framework; path = FilesProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3EB3E169E5E6009F204229F7A41DEB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		E434F8AA7AB8E747CEAD7B68507FA9A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E536BC41EF2566F022D0494503A18FEF /* SMBErrorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMBErrorType.swift; path = Sources/SMBTypes/SMBErrorType.swift; sourceTree = "<group>"; };
+		EDF6EBC1A69F04BEF3527F6251D0CA2D /* CSVReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVReader.swift; path = Sources/CSV/CSVReader.swift; sourceTree = "<group>"; };
+		EFC46CD2BC45ACE44CEC11FD5984431C /* Document.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Sources/AEXML/Document.swift; sourceTree = "<group>"; };
+		F01B81212D18A2BA3C2D50CE7A48E923 /* iCalKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iCalKit.xcconfig; sourceTree = "<group>"; };
+		F1136FC4D385C1905AA78EA461F4B101 /* CalendarComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarComponent.swift; path = Sources/Protocols/CalendarComponent.swift; sourceTree = "<group>"; };
+		F19EC7238D77F3C6E539EC54F47DE82A /* CSV.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CSV.swift.modulemap; sourceTree = "<group>"; };
+		F28A23CB60057068EFF577FB9D0243AF /* FilesProvider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FilesProvider.modulemap; sourceTree = "<group>"; };
+		F36023A054895CA66CB050748269C91C /* SMBFileProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMBFileProvider.swift; path = Sources/SMBFileProvider.swift; sourceTree = "<group>"; };
+		F9A488BD5CCF34A4750AA1E7C4A0E9B4 /* Calendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Calendar.swift; path = Sources/Calendar.swift; sourceTree = "<group>"; };
+		FAD67D5A6C7818ACFEA6100A50ADD972 /* SMB2FileHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMB2FileHandle.swift; path = Sources/SMBTypes/SMB2FileHandle.swift; sourceTree = "<group>"; };
+		FD394D3DECD1F887B4FEFECC87D7CAFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FD633E20D75D424E3436A9C7BADEDB60 /* Pods-Gucci Planning-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Gucci Planning-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		597FF98D88DF58CAEB6AC2DED765F515 /* Frameworks */ = {
+		108DA639C90436EE0991D4C4459F7FEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13683F2891095D6741B836C5333C4A6E /* Cocoa.framework in Frameworks */,
+				C630273A6F1A376BABA80213CB4ECCD9 /* AppKit.framework in Frameworks */,
+				DD59F9ADE163CAAB491AC5C4D30E687F /* AVFoundation.framework in Frameworks */,
+				0F210512A4AAD9B0E00FB865CCE3FE87 /* Cocoa.framework in Frameworks */,
+				1581496B01F0D42256CD75AF734CAFB8 /* CoreGraphics.framework in Frameworks */,
+				5F55B7CCED0B73A973A72B3B297B2FB9 /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,60 +236,97 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F6EE281BD12697F3406FA168F2CDD4B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516A856035238BC6BBF839F9CCD656A7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		217981391BE3E1CEF5F5F9A0AFDEC2BA /* Support Files */ = {
+		029A70C52ECE4EEAA3E4A94413D30608 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EF76A9CF5D52089468EF15C05AC8FCB2 /* iCalKit.modulemap */,
-				D9AF07B5B0F9432E2316A9BA917CEB8D /* iCalKit.xcconfig */,
-				B3059A196060C8094C97113989EF7285 /* iCalKit-dummy.m */,
-				A375DA1E94E338E096F66053185F77C4 /* iCalKit-prefix.pch */,
-				932C2D85821DF3FAA464FE896F8CAAE2 /* iCalKit-umbrella.h */,
-				8318D8C40E8FBBE34B0529E69870CB98 /* Info.plist */,
+				AF2059D103FF355C9EE73ECC56408F47 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1181F29AFCAB5B9A0FD29C17C3C79284 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				962688C33BB3F52D2A394E248E00BCAD /* iCalKit.modulemap */,
+				F01B81212D18A2BA3C2D50CE7A48E923 /* iCalKit.xcconfig */,
+				8AD75A58DC9F60591F1F9723CB640462 /* iCalKit-dummy.m */,
+				3E34FC8FEA3F8DC77400DDE7F48B41F2 /* iCalKit-prefix.pch */,
+				5886D8441E0A06FEE0A1FB2AB5C6426A /* iCalKit-umbrella.h */,
+				3BC4F23192FE917DAC308CF7C3A79C89 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/iCalKit";
 			sourceTree = "<group>";
 		};
-		3AC50C78AEA6FE9816583CFDBEB65745 /* Products */ = {
+		144E9CEAD5B37EA35491349EAE278692 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				87140F9641A6EE06FF929CBBD4F48C61 /* CSV.framework */,
-				4259209A2F17FC04A846A2CA1F31E5D6 /* iCalKit.framework */,
-				8D46DD0A412D65CE096DA92BE96747D7 /* Pods_Gucci_Planning.framework */,
+				344680881299C6198BA64E467BC4482A /* CSV.framework */,
+				D91BA41F66695D0ED02409F43C1193CE /* FilesProvider.framework */,
+				03FC8B270DC8FC88CBAF928C5F9D3831 /* iCalKit.framework */,
+				CF3EF7A65702CA3D78EA8A8A47045DAF /* Pods_Gucci_Planning.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4DEE22459FAC65C0AB20A4079495B3F9 /* OS X */ = {
+		7659B87E8FCF2DD9A3B71E74A9AFFD0D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				73500A4C8988B3B4F7DD0F520E9F4815 /* Cocoa.framework */,
-				BB3D1345A17837D250190A2222C578BD /* Foundation.framework */,
+				F19EC7238D77F3C6E539EC54F47DE82A /* CSV.swift.modulemap */,
+				40063503A688D955032B7FE27F08F1DD /* CSV.swift.xcconfig */,
+				6AB0FABE2D1300281511255140C651B1 /* CSV.swift-dummy.m */,
+				D75FB09B3E911A1D30E39FBCD76EE1AD /* CSV.swift-prefix.pch */,
+				5ED7F4CBE670A0E5CDCFF62A9C4A70B1 /* CSV.swift-umbrella.h */,
+				80205E20CEB8ADD1D72D1ADDC34E8F69 /* Info.plist */,
 			);
-			name = "OS X";
-			sourceTree = "<group>";
-		};
-		4E9F678307E02BD9EC0146C90AAEE5F5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EDAC6BD0B4C92D365F7552A3F40E5BFB /* CSV.swift */,
-				B1809FA596190EBA45B2E1F56280CEF8 /* iCalKit */,
-			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/CSV.swift";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */,
-				4E9F678307E02BD9EC0146C90AAEE5F5 /* Pods */,
-				3AC50C78AEA6FE9816583CFDBEB65745 /* Products */,
+				029A70C52ECE4EEAA3E4A94413D30608 /* Frameworks */,
+				848D5A127C9405B14020C82F29C365E1 /* Pods */,
+				144E9CEAD5B37EA35491349EAE278692 /* Products */,
 				BC7BD73274A8B8BFE518BE45578C1B1B /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		848D5A127C9405B14020C82F29C365E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E174F41823A8C75CD6B9D8EAF8D15672 /* CSV.swift */,
+				B1B268B8F92B5F17BD03622A4393EC27 /* FilesProvider */,
+				DA35E9C830E095FF6099F20F87432458 /* iCalKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		944719F3799EA3A70D22199135E2E26C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F28A23CB60057068EFF577FB9D0243AF /* FilesProvider.modulemap */,
+				D5329A3C549780901664C062D535079C /* FilesProvider.xcconfig */,
+				5A77B7302810C7250D5EFF0A1D088E30 /* FilesProvider-dummy.m */,
+				B1130620B0DFD80791F233FC5B01E566 /* FilesProvider-prefix.pch */,
+				C84B7CABE0140490852446B6696D471F /* FilesProvider-umbrella.h */,
+				E434F8AA7AB8E747CEAD7B68507FA9A7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FilesProvider";
 			sourceTree = "<group>";
 		};
 		975EA213150209FBDA63CFF46F1E7054 /* Pods-Gucci Planning */ = {
@@ -203,36 +347,65 @@
 			path = "Target Support Files/Pods-Gucci Planning";
 			sourceTree = "<group>";
 		};
-		A55877ABC43FE745F6E27A861A83B76C /* Support Files */ = {
+		AF2059D103FF355C9EE73ECC56408F47 /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				071E9FA254D43E11500442F2D6640A89 /* CSV.swift.modulemap */,
-				4F49EFC71241A3CCFA63B78C875D2296 /* CSV.swift.xcconfig */,
-				45B065E4930D85FD51D754506CFCE559 /* CSV.swift-dummy.m */,
-				FA2CEF1B0D0BA5D8416971692E2E5182 /* CSV.swift-prefix.pch */,
-				8B77405705B28883B63FA24DCDF379BA /* CSV.swift-umbrella.h */,
-				0AC7B01148428FD68AEEC466A6F76630 /* Info.plist */,
+				DE3EB3E169E5E6009F204229F7A41DEB /* AppKit.framework */,
+				75CDA95D9AF9F850B992A6D318240C82 /* AVFoundation.framework */,
+				683818A8E1D9804A74CB4F630E401C67 /* Cocoa.framework */,
+				91A23F4160FCAC19B193A6D84861AEFA /* CoreGraphics.framework */,
+				FD394D3DECD1F887B4FEFECC87D7CAFB /* Foundation.framework */,
+				BF7DF5C81B389CFF3055194538E2C70E /* ImageIO.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/CSV.swift";
+			name = "OS X";
 			sourceTree = "<group>";
 		};
-		B1809FA596190EBA45B2E1F56280CEF8 /* iCalKit */ = {
+		B1B268B8F92B5F17BD03622A4393EC27 /* FilesProvider */ = {
 			isa = PBXGroup;
 			children = (
-				7BC7F1D1D22A11C110853F9CDA49BBAE /* Alarm.swift */,
-				154FEFA80AE312A33C245E0F68A21E14 /* Calendar.swift */,
-				1F8D8EDD381F941095915039C0E0040D /* CalendarComponent.swift */,
-				CA20A5A7D4C5E872B3ED5CE2F57A432C /* Date.swift */,
-				2BB83D7F21DB15A3FB90DD3768253598 /* Event.swift */,
-				5E81DAFE8D59EB153F66F93AB6AC2C59 /* iCal.swift */,
-				B70A2726058DD9FED31B0DA5067537A9 /* iCalError.swift */,
-				96ADF6364233870D52DBDC61F19E1D52 /* IcsElement.swift */,
-				BC1A68FDB45F39E83E9FA01A4B32D4BC /* Parser.swift */,
-				BAE1E066F4B4F71749C4F4801EE10681 /* String.swift */,
-				217981391BE3E1CEF5F5F9A0AFDEC2BA /* Support Files */,
+				0BEC08734BBD5E6233707BB5EE5B7DED /* CIFSTypes.swift */,
+				33C4087C0E264192F076C31BD3EC6890 /* CloudFileProvider.swift */,
+				EFC46CD2BC45ACE44CEC11FD5984431C /* Document.swift */,
+				1D9DAC2917281E92BED52A56E4A1FC53 /* DropboxFileProvider.swift */,
+				5066CC00327E6836CE820C73D663B4C3 /* DropboxHelper.swift */,
+				63D0FEBD1628C0918989EA47EB8A4F45 /* Element.swift */,
+				7BDCC210F976FD3B89BCF345DCEAFA29 /* Error.swift */,
+				C679217745F2883475A218964BF93601 /* ExtendedLocalFileProvider.swift */,
+				34EEE454E21DEADFF00295DC19E1B635 /* FileObject.swift */,
+				90BC8C3FD2CC0830AC16064BE11221CF /* FileProvider.swift */,
+				A7A0989C8B501785694349DCD82333D4 /* FoundationExtensions.swift */,
+				381FAB5EA687F42989FC9B6747DCBEEB /* FPSStreamTask.swift */,
+				D5DD791F938A9CD1422357436C79E9FA /* FTPFileProvider.swift */,
+				735FB2E08EE95095C697C6E501133AAC /* FTPHelper.swift */,
+				6AF4DBC460177D2128A0C9CB1A89D08F /* HashMAC.swift */,
+				5C8B1B7D72ED4166B6FD2685D6883363 /* HTTPFileProvider.swift */,
+				3AE89DCE8E50D1674209FB18EE3D8D36 /* LocalFileProvider.swift */,
+				367A4A115C94CF334F61A3FECB55D3FC /* LocalHelper.swift */,
+				95CB3B04B3085C357ADCD632793F8A8C /* OneDriveFileProvider.swift */,
+				CE1DB69AFD17B1B77CF0F186D1F4F4D9 /* OneDriveHelper.swift */,
+				C20A38651350E9F44CEBB65442D7745A /* Options.swift */,
+				65F4D34A84192AA6648573A0A961BF8B /* Parser.swift */,
+				5907328AD7341097737FFF89A34B8EE4 /* RemoteSession.swift */,
+				5EDB03AE2DBECD63030E119282CF3271 /* ServerTrustPolicy.swift */,
+				12376355BB327625BE4D458D51485F0B /* SMB2DataTypes.swift */,
+				FAD67D5A6C7818ACFEA6100A50ADD972 /* SMB2FileHandle.swift */,
+				22197276EF3F57E9781A65332DD1E37F /* SMB2FileOperation.swift */,
+				4463E1685B3926E597F8F4738E56BF76 /* SMB2IOCtl.swift */,
+				B2765B8B409069C9D6D471BC9A4D48E1 /* SMB2Notification.swift */,
+				5E9873CC9321DD078D9D13F02E97A282 /* SMB2Query.swift */,
+				6B34CB9140EBA0FD8BAAA84FA69C902A /* SMB2QueryTypes.swift */,
+				577B993C1896C6A3A7ACABBF17B87A69 /* SMB2Session.swift */,
+				90A6517769EF46E4EC835A7CF3EF7A4E /* SMB2SetInfo.swift */,
+				0C2D742434664246EC2DD41B367201C5 /* SMB2Tree.swift */,
+				2F01C24044CCFE5D5076D2ACC47CB043 /* SMB2Types.swift */,
+				D2AC0C016A525DB0021BF62E8BECC88D /* SMBClient.swift */,
+				E536BC41EF2566F022D0494503A18FEF /* SMBErrorType.swift */,
+				F36023A054895CA66CB050748269C91C /* SMBFileProvider.swift */,
+				586624104369D93B0DEADFCD63D167B6 /* WebDAVFileProvider.swift */,
+				944719F3799EA3A70D22199135E2E26C /* Support Files */,
 			);
-			path = iCalKit;
+			name = FilesProvider;
+			path = FilesProvider;
 			sourceTree = "<group>";
 		};
 		BC7BD73274A8B8BFE518BE45578C1B1B /* Targets Support Files */ = {
@@ -243,33 +416,53 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */ = {
+		DA35E9C830E095FF6099F20F87432458 /* iCalKit */ = {
 			isa = PBXGroup;
 			children = (
-				4DEE22459FAC65C0AB20A4079495B3F9 /* OS X */,
+				BC51E7378D94F0131D59CC613A089786 /* Alarm.swift */,
+				F9A488BD5CCF34A4750AA1E7C4A0E9B4 /* Calendar.swift */,
+				F1136FC4D385C1905AA78EA461F4B101 /* CalendarComponent.swift */,
+				5AA462425D14AE0DAE04D772753094B2 /* Date.swift */,
+				63F42D85340F23E137BE0322794ADD1C /* Event.swift */,
+				97D85076AE710F67B99B11116E5D1E80 /* iCal.swift */,
+				54C7A9D6AAE457632934CA561C65B96F /* iCalError.swift */,
+				74B0E238385E97D9FB00533ED24D699E /* IcsElement.swift */,
+				25E3834000B72C804EE29F818AC21A57 /* Parser.swift */,
+				6FE2735EB5CE03E4E45DBB28A4F1075E /* String.swift */,
+				1181F29AFCAB5B9A0FD29C17C3C79284 /* Support Files */,
 			);
-			name = Frameworks;
+			name = iCalKit;
+			path = iCalKit;
 			sourceTree = "<group>";
 		};
-		EDAC6BD0B4C92D365F7552A3F40E5BFB /* CSV.swift */ = {
+		E174F41823A8C75CD6B9D8EAF8D15672 /* CSV.swift */ = {
 			isa = PBXGroup;
 			children = (
-				9F4193DFA2DFD9C857E57A94B179318C /* BinaryReader.swift */,
-				34A4000D876DDD3B2763579484566122 /* CSV.swift */,
-				85AFCC1BD1CEA00F05DC7BBDE6FE5FF1 /* CSVError.swift */,
-				AA6D943EA5B32438889F29114AC3C5A7 /* CSVReader.swift */,
-				27ECC802138FE96FCCAE6120DEFB2FA0 /* CSVRowDecoder.swift */,
-				677AD02FC588047498AAC50323C08845 /* CSVWriter.swift */,
-				88DE26017F560A701757F23A56323C77 /* Endian.swift */,
-				6131DF185E5C87DB0266833F633BE21E /* UnicodeIterator.swift */,
-				A55877ABC43FE745F6E27A861A83B76C /* Support Files */,
+				A9DB95451CCA043411E2A8A74F054D42 /* BinaryReader.swift */,
+				776D1BB5F9B0342FD117D5E50B61CB52 /* CSV.swift */,
+				873B8332719D4B9DFE048B810F733BA1 /* CSVError.swift */,
+				EDF6EBC1A69F04BEF3527F6251D0CA2D /* CSVReader.swift */,
+				080AD77CFA3B4A347928847741F37F73 /* CSVRowDecoder.swift */,
+				C07FFE9BC280BFD1BCE21C3E358ED5A8 /* CSVWriter.swift */,
+				98AA0591506704B586C5D2DA819F10EB /* Endian.swift */,
+				5A49082EBA68018993F5AB77AE5E9301 /* UnicodeIterator.swift */,
+				7659B87E8FCF2DD9A3B71E74A9AFFD0D /* Support Files */,
 			);
+			name = CSV.swift;
 			path = CSV.swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		156C0BC8499086751675ADBF4089958B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAB8975A855682F37070150BB5D0DA9 /* Pods-Gucci Planning-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		22208ED2CC89F5B01A229C0457BA316B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,11 +471,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDC91807489948F3EAA6792FB5B9848E /* Headers */ = {
+		AEAEB1D079C4A85DD5EF8F49B930C730 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A4AFF9C31C94D9ED4AB38D38EA7341E /* Pods-Gucci Planning-umbrella.h in Headers */,
+				668686C2632C0EC1C85C9E7B9398B273 /* FilesProvider-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,26 +490,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		34CD4BCE578FCCDE913FEDD5FFFE3DEC /* Pods-Gucci Planning */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0548CB08667FFDEBE0257A61C010D82F /* Build configuration list for PBXNativeTarget "Pods-Gucci Planning" */;
-			buildPhases = (
-				BDC91807489948F3EAA6792FB5B9848E /* Headers */,
-				49A18A9754C06EAB76A9823893063A0B /* Sources */,
-				597FF98D88DF58CAEB6AC2DED765F515 /* Frameworks */,
-				3DCD799CFBCD2448FEDD28A8530F7112 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8BB7DB85327B90CB11F18B304EBB5169 /* PBXTargetDependency */,
-				D37ADED687234DCD58AFCA20892D89ED /* PBXTargetDependency */,
-			);
-			name = "Pods-Gucci Planning";
-			productName = "Pods-Gucci Planning";
-			productReference = 8D46DD0A412D65CE096DA92BE96747D7 /* Pods_Gucci_Planning.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		47CB11462B7F23491981A5FA260B9612 /* iCalKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A70FA7D98AC1E22FA87026AF7B3A4DF /* Build configuration list for PBXNativeTarget "iCalKit" */;
@@ -332,7 +505,7 @@
 			);
 			name = iCalKit;
 			productName = iCalKit;
-			productReference = 4259209A2F17FC04A846A2CA1F31E5D6 /* iCalKit.framework */;
+			productReference = 03FC8B270DC8FC88CBAF928C5F9D3831 /* iCalKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		59D0A23DB65E60F61E5F2FE78575925F /* CSV.swift */ = {
@@ -350,7 +523,46 @@
 			);
 			name = CSV.swift;
 			productName = CSV.swift;
-			productReference = 87140F9641A6EE06FF929CBBD4F48C61 /* CSV.framework */;
+			productReference = 344680881299C6198BA64E467BC4482A /* CSV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E350B2F6F3EF0B1530454DAD3A6692C1 /* Pods-Gucci Planning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E5227074BBE0889DF294E789D76AB9 /* Build configuration list for PBXNativeTarget "Pods-Gucci Planning" */;
+			buildPhases = (
+				156C0BC8499086751675ADBF4089958B /* Headers */,
+				5239DA07C707FEA3A5C4E8AEDB1BA20B /* Sources */,
+				F6EE281BD12697F3406FA168F2CDD4B8 /* Frameworks */,
+				0AD600A2C56C86EB6BBF0992F14EF9D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA5C7F4DD6EDC7DB0010BE1F05D7B73 /* PBXTargetDependency */,
+				C28D5BCB742F22EAE52AFECC852B09B8 /* PBXTargetDependency */,
+				FF06956A4983B8AA25FE2BC22C208986 /* PBXTargetDependency */,
+			);
+			name = "Pods-Gucci Planning";
+			productName = "Pods-Gucci Planning";
+			productReference = CF3EF7A65702CA3D78EA8A8A47045DAF /* Pods_Gucci_Planning.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1E33A76DE05A182BD962B02A9546A5E /* FilesProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A817183E5DF98ED955FC97C54C34B639 /* Build configuration list for PBXNativeTarget "FilesProvider" */;
+			buildPhases = (
+				AEAEB1D079C4A85DD5EF8F49B930C730 /* Headers */,
+				058C3B71985FD83D7443E4D664A774FE /* Sources */,
+				108DA639C90436EE0991D4C4459F7FEA /* Frameworks */,
+				FE9D33E8C7A737556882822E03FB9B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilesProvider;
+			productName = FilesProvider;
+			productReference = D91BA41F66695D0ED02409F43C1193CE /* FilesProvider.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -360,45 +572,37 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
-				TargetAttributes = {
-					47CB11462B7F23491981A5FA260B9612 = {
-						LastSwiftMigration = 1020;
-					};
-					59D0A23DB65E60F61E5F2FE78575925F = {
-						LastSwiftMigration = 1020;
-					};
-				};
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3AC50C78AEA6FE9816583CFDBEB65745 /* Products */;
+			productRefGroup = 144E9CEAD5B37EA35491349EAE278692 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				59D0A23DB65E60F61E5F2FE78575925F /* CSV.swift */,
+				F1E33A76DE05A182BD962B02A9546A5E /* FilesProvider */,
 				47CB11462B7F23491981A5FA260B9612 /* iCalKit */,
-				34CD4BCE578FCCDE913FEDD5FFFE3DEC /* Pods-Gucci Planning */,
+				E350B2F6F3EF0B1530454DAD3A6692C1 /* Pods-Gucci Planning */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1DB999A92166A21074F48834FEEF09E0 /* Resources */ = {
+		0AD600A2C56C86EB6BBF0992F14EF9D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DCD799CFBCD2448FEDD28A8530F7112 /* Resources */ = {
+		1DB999A92166A21074F48834FEEF09E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -412,9 +616,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FE9D33E8C7A737556882822E03FB9B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		058C3B71985FD83D7443E4D664A774FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7733A18F6574E1EC06276D28F78B2302 /* CIFSTypes.swift in Sources */,
+				B0C5B3D65E9F72A5A76699AEC4060B44 /* CloudFileProvider.swift in Sources */,
+				EE032452995C644DA5ADBA82DCFC7715 /* Document.swift in Sources */,
+				FB39B4F8E3F7E42C895AF9F1E3616C9F /* DropboxFileProvider.swift in Sources */,
+				37C75B3C75DCFB7E26DCB07C1E40F9D8 /* DropboxHelper.swift in Sources */,
+				65A5BBCA345BD4EE35D2CBE5931F1BF4 /* Element.swift in Sources */,
+				0D4B518EBB10E77A291BBCFDF52A973B /* Error.swift in Sources */,
+				A2E9EF5FFA820C13C803C7D55139E949 /* ExtendedLocalFileProvider.swift in Sources */,
+				F5E9732887578571CA2FDDB6C2E725C3 /* FileObject.swift in Sources */,
+				6DA9F257565E75F335B496EA81B84D17 /* FileProvider.swift in Sources */,
+				6454A0C943A88E9286287C2436F49C79 /* FilesProvider-dummy.m in Sources */,
+				5B5AD8994E607CADE02390C7E8BCC448 /* FoundationExtensions.swift in Sources */,
+				BDF4EEE6759BA5C75B76275BD661C56B /* FPSStreamTask.swift in Sources */,
+				050A15A69A085E53F52F0C1E875F9C55 /* FTPFileProvider.swift in Sources */,
+				4C5ABB99CC89FE3BFE3DCA2EAE881818 /* FTPHelper.swift in Sources */,
+				9A8E44A61A4BA3F092C4D0E7441C21F3 /* HashMAC.swift in Sources */,
+				C5AEDE1E1037D9E960BFCFDB2BE2948F /* HTTPFileProvider.swift in Sources */,
+				DA0256316EB6E5419410AB010C7AB604 /* LocalFileProvider.swift in Sources */,
+				CE3D80A549F86784E85F16A865F77411 /* LocalHelper.swift in Sources */,
+				5848DCAAF7E3E5FF78BAA91570D205DF /* OneDriveFileProvider.swift in Sources */,
+				F44814A53EC9A516FAA4AF9E232F2D2F /* OneDriveHelper.swift in Sources */,
+				322EB03BEA7D17A0010E0742057FE458 /* Options.swift in Sources */,
+				33CA9C89CCAD3DDAA1538692ECA74E01 /* Parser.swift in Sources */,
+				53B96879C13DEEC9DF40D22C02440A59 /* RemoteSession.swift in Sources */,
+				D94ECD1BE4677C50DDA30469571A17C9 /* ServerTrustPolicy.swift in Sources */,
+				F32803C59869F37D733F5FEB9325C469 /* SMB2DataTypes.swift in Sources */,
+				4F4AB17810FA7AB3C43B24852E92173F /* SMB2FileHandle.swift in Sources */,
+				4FD6D09783E635D0DAD95F70B0BAB5AF /* SMB2FileOperation.swift in Sources */,
+				349CE908FE42E7AC87A5BD336E2D24C8 /* SMB2IOCtl.swift in Sources */,
+				AA2E3C41029752B8DEF145454F61381C /* SMB2Notification.swift in Sources */,
+				3F11AB2943FE0D95C2B4C7C50A75FD18 /* SMB2Query.swift in Sources */,
+				7C09DBE5F9CE97A237049B0D41BC41AA /* SMB2QueryTypes.swift in Sources */,
+				19376D16195C78E387CB2EFF3A31CD67 /* SMB2Session.swift in Sources */,
+				2990C7D3F0AC0A2645FC46738BAA61A6 /* SMB2SetInfo.swift in Sources */,
+				25B2868F26379AF085981DAA112CC071 /* SMB2Tree.swift in Sources */,
+				2376250E28356EB53B0CE5EAB5E4B52B /* SMB2Types.swift in Sources */,
+				BB649EB7AB7C5A472BCA7544E57F3F3E /* SMBClient.swift in Sources */,
+				80F58C9BE271AB19B2235A18B7B3A524 /* SMBErrorType.swift in Sources */,
+				8E2126A888375C52EDAA07F6DC380835 /* SMBFileProvider.swift in Sources */,
+				5691C9C23C6EE715EEE16DC89684FBB2 /* WebDAVFileProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		227901404FF67BAE1D16484E8888BF60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,11 +689,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49A18A9754C06EAB76A9823893063A0B /* Sources */ = {
+		5239DA07C707FEA3A5C4E8AEDB1BA20B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EC106231864B35B9848FE5CD806ECED /* Pods-Gucci Planning-dummy.m in Sources */,
+				05A8D780029E113D52AAC49FB1BB23A2 /* Pods-Gucci Planning-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,61 +718,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8BB7DB85327B90CB11F18B304EBB5169 /* PBXTargetDependency */ = {
+		3FA5C7F4DD6EDC7DB0010BE1F05D7B73 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CSV.swift;
 			target = 59D0A23DB65E60F61E5F2FE78575925F /* CSV.swift */;
-			targetProxy = B7EA74313C1FEB9A17D76CAED6BBC1C5 /* PBXContainerItemProxy */;
+			targetProxy = 997894C38A6504B18E06933A927A3CB1 /* PBXContainerItemProxy */;
 		};
-		D37ADED687234DCD58AFCA20892D89ED /* PBXTargetDependency */ = {
+		C28D5BCB742F22EAE52AFECC852B09B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FilesProvider;
+			target = F1E33A76DE05A182BD962B02A9546A5E /* FilesProvider */;
+			targetProxy = DCD4576F5BFD9B2197B1C6B50FF55272 /* PBXContainerItemProxy */;
+		};
+		FF06956A4983B8AA25FE2BC22C208986 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iCalKit;
 			target = 47CB11462B7F23491981A5FA260B9612 /* iCalKit */;
-			targetProxy = BA8EA1329AF4133F63489C79C80E2FA3 /* PBXContainerItemProxy */;
+			targetProxy = D48A058C87C21E142F29F29D7A0FA52E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		059B483333E90EAFF4A83554554F0DDE /* Debug */ = {
+		132702B71E5C32AD793C256417842183 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46CA2F0E3ECAA9386D29A64E67CCDEA0 /* Pods-Gucci Planning.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-Gucci Planning/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MODULEMAP_FILE = "Target Support Files/Pods-Gucci Planning/Pods-Gucci Planning.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1EAFE7ABE35C7F7BFB5E160638794C3D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F49EFC71241A3CCFA63B78C875D2296 /* CSV.swift.xcconfig */;
+			baseConfigurationReference = 40063503A688D955032B7FE27F08F1DD /* CSV.swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -530,7 +757,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CSV.swift/CSV.swift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CSV.swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MODULEMAP_FILE = "Target Support Files/CSV.swift/CSV.swift.modulemap";
 				PRODUCT_MODULE_NAME = CSV;
@@ -538,18 +769,17 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		3F0D72F7A43AD4EFFDEF3588F45E0991 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -610,9 +840,89 @@
 			};
 			name = Debug;
 		};
-		7F443ABE2372461DF7B5A11A835E3618 /* Release */ = {
+		40D60F15D576F52FA48EE5BD2200B40E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9AF07B5B0F9432E2316A9BA917CEB8D /* iCalKit.xcconfig */;
+			baseConfigurationReference = D5329A3C549780901664C062D535079C /* FilesProvider.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/FilesProvider/FilesProvider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FilesProvider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/FilesProvider/FilesProvider.modulemap";
+				PRODUCT_MODULE_NAME = FilesProvider;
+				PRODUCT_NAME = FilesProvider;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AA3760A48A1912AD46C5563E0577D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46CA2F0E3ECAA9386D29A64E67CCDEA0 /* Pods-Gucci Planning.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Gucci Planning/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gucci Planning/Pods-Gucci Planning.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4FCBA895B9DC2E8343E3BA71081D08D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01B81212D18A2BA3C2D50CE7A48E923 /* iCalKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -628,7 +938,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/iCalKit/iCalKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/iCalKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MODULEMAP_FILE = "Target Support Files/iCalKit/iCalKit.modulemap";
 				PRODUCT_MODULE_NAME = iCalKit;
@@ -636,16 +950,16 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		91E62C44C99BE098B395BCF0BE0171D5 /* Debug */ = {
+		683D3DADF95DA417E59FF83911EE1292 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F49EFC71241A3CCFA63B78C875D2296 /* CSV.swift.xcconfig */;
+			baseConfigurationReference = 40063503A688D955032B7FE27F08F1DD /* CSV.swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -661,7 +975,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CSV.swift/CSV.swift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CSV.swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MODULEMAP_FILE = "Target Support Files/CSV.swift/CSV.swift.modulemap";
 				PRODUCT_MODULE_NAME = CSV;
@@ -669,18 +987,18 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		C9FB373ADD169F331162507A3E5856D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -736,7 +1054,83 @@
 			};
 			name = Release;
 		};
-		CDD76A77048434CC37A676EE44C670CB /* Release */ = {
+		E0DE80AC07E7AE8B04AA19D2A3E20D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5329A3C549780901664C062D535079C /* FilesProvider.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/FilesProvider/FilesProvider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FilesProvider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/FilesProvider/FilesProvider.modulemap";
+				PRODUCT_MODULE_NAME = FilesProvider;
+				PRODUCT_NAME = FilesProvider;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4B19F608978A4BA580BA6E5A237A6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01B81212D18A2BA3C2D50CE7A48E923 /* iCalKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/iCalKit/iCalKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iCalKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/iCalKit/iCalKit.modulemap";
+				PRODUCT_MODULE_NAME = iCalKit;
+				PRODUCT_NAME = iCalKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7DDF823BFFEC89FF530AAA6DEC60A88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8D5738648483B3468F874B2334591C64 /* Pods-Gucci Planning.release.xcconfig */;
 			buildSettings = {
@@ -755,7 +1149,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Target Support Files/Pods-Gucci Planning/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MODULEMAP_FILE = "Target Support Files/Pods-Gucci Planning/Pods-Gucci Planning.modulemap";
@@ -766,57 +1164,16 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		DC5D1DA877B2FB1D97B7987FE08A4003 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9AF07B5B0F9432E2316A9BA917CEB8D /* iCalKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/iCalKit/iCalKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iCalKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/iCalKit/iCalKit.modulemap";
-				PRODUCT_MODULE_NAME = iCalKit;
-				PRODUCT_NAME = iCalKit;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0548CB08667FFDEBE0257A61C010D82F /* Build configuration list for PBXNativeTarget "Pods-Gucci Planning" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				059B483333E90EAFF4A83554554F0DDE /* Debug */,
-				CDD76A77048434CC37A676EE44C670CB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -829,8 +1186,26 @@
 		5A70FA7D98AC1E22FA87026AF7B3A4DF /* Build configuration list for PBXNativeTarget "iCalKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC5D1DA877B2FB1D97B7987FE08A4003 /* Debug */,
-				7F443ABE2372461DF7B5A11A835E3618 /* Release */,
+				4FCBA895B9DC2E8343E3BA71081D08D5 /* Debug */,
+				F4B19F608978A4BA580BA6E5A237A6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E5227074BBE0889DF294E789D76AB9 /* Build configuration list for PBXNativeTarget "Pods-Gucci Planning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA3760A48A1912AD46C5563E0577D19 /* Debug */,
+				F7DDF823BFFEC89FF530AAA6DEC60A88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A817183E5DF98ED955FC97C54C34B639 /* Build configuration list for PBXNativeTarget "FilesProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DE80AC07E7AE8B04AA19D2A3E20D70 /* Debug */,
+				40D60F15D576F52FA48EE5BD2200B40E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -838,8 +1213,8 @@
 		FF04AB75E0BA05725233F82E8A820CB0 /* Build configuration list for PBXNativeTarget "CSV.swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91E62C44C99BE098B395BCF0BE0171D5 /* Debug */,
-				1EAFE7ABE35C7F7BFB5E160638794C3D /* Release */,
+				132702B71E5C32AD793C256417842183 /* Debug */,
+				683D3DADF95DA417E59FF83911EE1292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
