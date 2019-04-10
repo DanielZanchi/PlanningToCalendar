@@ -201,13 +201,11 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Gucci Planning/Pods-Gucci Planning-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CSV.swift/CSV.framework",
-				"${BUILT_PRODUCTS_DIR}/FilesProvider/FilesProvider.framework",
 				"${BUILT_PRODUCTS_DIR}/iCalKit/iCalKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CSV.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FilesProvider.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iCalKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
