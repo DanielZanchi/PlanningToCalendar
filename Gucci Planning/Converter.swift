@@ -41,9 +41,7 @@ extension DestinationView {
                 if first != "" && first != "Casa gucci".capitalized {
                     nameAndHours = row
                     let events = createEventsForPerson(nameAndHours: nameAndHours)
-                    
-
-                    
+                                        
                     let dept = "servizi"
                     fileManager.createOrUpdateFile(events: events, name: "\((nameAndHours.first)!)", department: "\(dept)", path: path)
                 }

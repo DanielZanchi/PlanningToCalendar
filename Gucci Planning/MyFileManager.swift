@@ -12,11 +12,11 @@ import iCalKit
 class MyFileManager  {
     
     init() {
-        
     }
     
     func createOrUpdateFile(events: [Event], name: String, department: String, path: String) {
-        let file = "\(name).ics" //this is the file. we will write to and read from it
+        let nameWithoutSpaces = name.replacingOccurrences(of: " ", with: "_")
+        let file = "\(nameWithoutSpaces).ics" //this is the file. we will write to and read from it
         let originalFileURL = URL(fileURLWithPath: path)
         let pathWithoutLastComp = originalFileURL.deletingLastPathComponent()
         let dir = pathWithoutLastComp.appendingPathComponent(department)
@@ -29,10 +29,10 @@ class MyFileManager  {
                 //directory (ex. "servizi") already exists
                 if FileManager.default.fileExists(atPath: fileURL.path) {
                     //file .ics of that person already exists, going to update it
-                    updateFile(events: events, name: name, department: department, fileURL: fileURL)
+                    updateFile(events: events, name: nameWithoutSpaces, department: department, fileURL: fileURL)
                 } else {
                     // file .ics of that person didn't exists, going to create it
-                    createFile(events: events, name: name, department: department, path: path)
+                    createFile(events: events, name: nameWithoutSpaces, department: department, path: path)
                 }
             } else {
                 //already exists, but it's a file
@@ -46,7 +46,7 @@ class MyFileManager  {
                 print("eror creating dir")
                 print(error)
             }
-            createFile(events: events, name: name, department: department, path: path)
+            createFile(events: events, name: nameWithoutSpaces, department: department, path: path)
         }
     }
     
