@@ -42,9 +42,10 @@ extension DestinationView {
                     nameAndHours = row
                     let events = createEventsForPerson(nameAndHours: nameAndHours)
                     
-                    let calendar = Calendar(withComponents: events)
-                    content = calendar.toCal()
-                    fileManager.createFile(content: content, name: "\((nameAndHours.first)!)", month: "\((month)!)", path: path)
+
+                    
+                    let dept = "servizi"
+                    fileManager.createOrUpdateFile(events: events, name: "\((nameAndHours.first)!)", department: "\(dept)", path: path)
                 }
                 
                 
@@ -58,7 +59,7 @@ extension DestinationView {
         //parse Hours
         var h: Int!
         var min: Int!
-        let y = 2018
+        let y = Date().getCurrentYear()
         var name: String!
         var NAH = nameAndHours
         NAH.removeFirst()
@@ -91,6 +92,10 @@ extension DestinationView {
                 h = 10
                 min = 0
                 name = "Normale"
+            case "10":
+                h = 10
+                min = 0
+                name = "Normale"
             case "X":
                 h = 10
                 min = 0
@@ -100,9 +105,19 @@ extension DestinationView {
                 min = 0
                 name = "Trasferta"
             case "$":
+                if monthInNumber >= 6 && monthInNumber <= 8 {
                 h = 10
                 min = 30
                 name = "$"
+                } else {
+                    h = 10
+                    min = 0
+                    name = "Chiusura $"
+                }
+            case "C":
+                h = 10
+                min = 0
+                name = "Chiusura negozio"
             case "12":
                 h = 12
                 min = 0
@@ -135,6 +150,22 @@ extension DestinationView {
                 h = 9
                 min = 30
                 name = "Nove e mezzo"
+            case "15$":
+                h = 15
+                min = 0
+                name = "15 Chiusura"
+            case "11$":
+                h = 11
+                min = 0
+                name = "11 Chiusura"
+            case "12$":
+                h = 12
+                min = 0
+                name = "12 Chiusura"
+            case "inv":
+                h = 10
+                min = 0
+                name = "inventario"
             default:
                 h = 0
                 min = 0
@@ -175,5 +206,17 @@ extension DestinationView {
         let calendar = Calendar.current
         let date = calendar.date(from: dateComponents)
         return date!
+    }
+}
+
+extension Date {
+    func getCurrentYear() -> Int {
+        let calendar = Calendar.current
+        
+        
+        let oneMonthFromNow = Calendar.current.date(byAdding: .month, value: 1, to: Date())
+        
+        let year = calendar.component(.year, from: oneMonthFromNow! )        
+        return year
     }
 }

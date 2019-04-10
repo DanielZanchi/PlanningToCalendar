@@ -7,13 +7,10 @@
 //
 
 import Cocoa
-
-
-
 class DestinationView: NSView {
     var fileManager: MyFileManager!
     
-    let monthDictionary: [String: String] = ["GIUGNO": "06", "LUGLIO": "07", "AGOSTO": "08"]
+    let monthDictionary: [String: String] = ["GIUGNO": "06", "LUGLIO": "07", "AGOSTO": "08", "SETTEMBRE": "09", "OTTOBRE": "10", "NOVEMBRE": "11", "DICEMBRE": "12", "GENNAIO": "01", "FEBBRAIO": "02", "MARZO": "03", "APRILE": "04", "MAGGIO": "05"]
     let dayNames = ["D","M","ME","G","V","S"]
     
     var content: String!
@@ -35,7 +32,7 @@ class DestinationView: NSView {
     }
     
     override func draggingEntered(_ sender: NSDraggingInfo) -> NSDragOperation {
-        if let pasteboard = sender.draggingPasteboard().propertyList(forType: NSPasteboard.PasteboardType(rawValue: "NSFilenamesPboardType")) as? NSArray {
+        if let pasteboard = sender.draggingPasteboard.propertyList(forType: NSPasteboard.PasteboardType(rawValue: "NSFilenamesPboardType")) as? NSArray {
             if let path = pasteboard[0] as? String {
                 let ext = NSURL(fileURLWithPath: path).pathExtension
                 if checkExtension(ext: ext!) {
@@ -60,7 +57,7 @@ class DestinationView: NSView {
     }
     
     override func performDragOperation(_ sender: NSDraggingInfo) -> Bool {
-        if let pasteboard = sender.draggingPasteboard().propertyList(forType: NSPasteboard.PasteboardType(rawValue: "NSFilenamesPboardType")) as? NSArray {
+        if let pasteboard = sender.draggingPasteboard.propertyList(forType: NSPasteboard.PasteboardType(rawValue: "NSFilenamesPboardType")) as? NSArray {
             if let path = pasteboard[0] as? String {
                 let ext = NSURL(fileURLWithPath: path).pathExtension
                 if checkExtension(ext: ext!) {

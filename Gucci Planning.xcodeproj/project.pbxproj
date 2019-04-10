@@ -132,6 +132,7 @@
 				TargetAttributes = {
 					30D2688720B1EF7200BD4319 = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 0;
@@ -368,7 +369,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielZanchi.Gucci-Planning";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -389,7 +390,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielZanchi.Gucci-Planning";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
