@@ -85,7 +85,19 @@ class MyFileManager  {
 
         
         let cals = try! iCal.load(url: fileURL)
-        let cal = cals.first
+        var cal = cals.first
+        
+        //scan old calendar, if it finds old events of the same month it will delete them from the old calendar
+        let monthImAdding = events.first?.dtstart?.getMonth()
+        cal?.subComponents.removeAll { 
+            (($0 as? Event)?.dtstart?.getMonth())! == monthImAdding 
+        }
+//        for (index, event) in (cal!.subComponents).enumerated() where event is Event {
+//            let eventMonth = (event as! Event).dtstart?.getMonth()
+//            if eventMonth == events.first?.dtstart?.getMonth() {
+//                cal?.subComponents.removeAll(where: (event as! Event).dtstart?.getMonth() = eventMonth)
+//            }
+//        }
         
         var newEvents = events
         
@@ -132,5 +144,16 @@ class MyFileManager  {
     func replaceWithCommas(string: String) -> String {
         let s = string.replacingOccurrences(of: ";", with: ",", options: .literal, range: nil)
         return s
+    }
+}
+
+extension Date {
+    func getMonth() -> Int? {
+        let calendar = Calendar.current
+        let components = calendar.dateComponents([.month], from: self)
+        
+        let month = components.month
+        
+        return month
     }
 }
