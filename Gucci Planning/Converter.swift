@@ -18,6 +18,8 @@ extension DestinationView {
         let CSVString = fileManager.replaceWithCommas(string: fileString)
         let csv = try! CSVReader(string: CSVString)
         
+
+
         //parse CSV file
         while let row = csv.next() {
             let first = (row.first)?.uppercased()
@@ -60,6 +62,8 @@ extension DestinationView {
             let uploadService = FTPUpload(baseUrl: "ftp.planning.altervista.org", userName: "planning", password: "pazpih-zetvUj-tymwu5", directoryPath: "")
             uploadService.send(data: data, with: file) { (success) in
                 print(success)
+                NotificationCenter.default.post(name: Notification.Name(rawValue: "finish"), object: nil)
+
             }
         }
     }

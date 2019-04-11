@@ -8,6 +8,7 @@
 
 import Cocoa
 class DestinationView: NSView {
+    
     var fileManager: MyFileManager!
     
     let monthDictionary: [String: String] = ["GIUGNO": "06", "LUGLIO": "07", "AGOSTO": "08", "SETTEMBRE": "09", "OTTOBRE": "10", "NOVEMBRE": "11", "DICEMBRE": "12", "GENNAIO": "01", "FEBBRAIO": "02", "MARZO": "03", "APRILE": "04", "MAGGIO": "05"]
@@ -32,11 +33,15 @@ class DestinationView: NSView {
     }
     
     override func draggingEntered(_ sender: NSDraggingInfo) -> NSDragOperation {
+        NotificationCenter.default.post(name: Notification.Name(rawValue: "dragged"), object: nil)
+
+        
         if let pasteboard = sender.draggingPasteboard.propertyList(forType: NSPasteboard.PasteboardType(rawValue: "NSFilenamesPboardType")) as? NSArray {
             if let path = pasteboard[0] as? String {
                 let ext = NSURL(fileURLWithPath: path).pathExtension
                 if checkExtension(ext: ext!) {
                     self.layer?.backgroundColor = NSColor.green.cgColor
+                    
                     return NSDragOperation.copy
                 }
                 else {
@@ -61,6 +66,8 @@ class DestinationView: NSView {
             if let path = pasteboard[0] as? String {
                 let ext = NSURL(fileURLWithPath: path).pathExtension
                 if checkExtension(ext: ext!) {
+
+                    
                     self.layer?.backgroundColor = NSColor.blue.cgColor
                     self.launchConverter(path: path)
                     return true
