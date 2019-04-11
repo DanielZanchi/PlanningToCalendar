@@ -15,4 +15,4 @@ That's it, every month you will have you work schedule updated. No need to do th
 ### What does the App do?
 - It converts a .csv file to a .ics file
 - It creates a index.html where the user can find the subscription calendar (webcal) link
-- Uploads the .ics files and the index.html to (via FTP): [planning](planning.altervista.org)
+- Uploads the .ics files and the index.html to (via FTP): [planning](http://planning.altervista.org)
