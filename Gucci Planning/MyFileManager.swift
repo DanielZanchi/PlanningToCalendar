@@ -106,8 +106,8 @@ class MyFileManager  {
         
         let data = try! Data(contentsOf: fileURL)
         
-        //        MyFileUploader.shared.upload(fileURL: fileURL)
-        print(file)
+        
+        
         let uploadService = FTPUpload(baseUrl: "ftp.planning.altervista.org", userName: "planning", password: "pazpih-zetvUj-tymwu5", directoryPath: "servizi")
         uploadService.send(data: data, with: file) { (success) in
             print(success)

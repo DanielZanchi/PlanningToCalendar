@@ -49,6 +49,19 @@ extension DestinationView {
                 
             }
         }
+        let originalFileURL = URL(fileURLWithPath: path)
+        let pathWithoutLastComp = originalFileURL.deletingLastPathComponent()
+        if let fileURL = IndexCreator.shared.createIndex(inFolder: pathWithoutLastComp) {
+            let file = "index.html"
+            let data = try! Data(contentsOf: fileURL)
+            
+            //        MyFileUploader.shared.upload(fileURL: fileURL)
+            print(file)
+            let uploadService = FTPUpload(baseUrl: "ftp.planning.altervista.org", userName: "planning", password: "pazpih-zetvUj-tymwu5", directoryPath: "")
+            uploadService.send(data: data, with: file) { (success) in
+                print(success)
+            }
+        }
     }
     
     

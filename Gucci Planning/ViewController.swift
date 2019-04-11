@@ -15,10 +15,6 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
-        
-
-//        monthInNumber = 4 //delete
         
 
         
