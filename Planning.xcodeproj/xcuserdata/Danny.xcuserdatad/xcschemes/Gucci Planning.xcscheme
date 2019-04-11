@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "30D2688720B1EF7200BD4319"
-               BuildableName = "Gucci Planning.app"
-               BlueprintName = "Gucci Planning"
-               ReferencedContainer = "container:Gucci Planning.xcodeproj">
+               BuildableName = "Planning.app"
+               BlueprintName = "Planning"
+               ReferencedContainer = "container:Planning.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "30D2688720B1EF7200BD4319"
-            BuildableName = "Gucci Planning.app"
-            BlueprintName = "Gucci Planning"
-            ReferencedContainer = "container:Gucci Planning.xcodeproj">
+            BuildableName = "Planning.app"
+            BlueprintName = "Planning"
+            ReferencedContainer = "container:Planning.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "30D2688720B1EF7200BD4319"
-            BuildableName = "Gucci Planning.app"
-            BlueprintName = "Gucci Planning"
-            ReferencedContainer = "container:Gucci Planning.xcodeproj">
+            BuildableName = "Planning.app"
+            BlueprintName = "Planning"
+            ReferencedContainer = "container:Planning.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "30D2688720B1EF7200BD4319"
-            BuildableName = "Gucci Planning.app"
-            BlueprintName = "Gucci Planning"
-            ReferencedContainer = "container:Gucci Planning.xcodeproj">
+            BuildableName = "Planning.app"
+            BlueprintName = "Planning"
+            ReferencedContainer = "container:Planning.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
